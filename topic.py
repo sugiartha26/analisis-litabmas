@@ -70,7 +70,8 @@ if uploaded_file:
         stopwords_id = [
             'yang', 'dan', 'di', 'ke', 'dari', 'pada', 'dengan', 'untuk', 'adalah', 'ini',
             'itu', 'dalam', 'atau', 'oleh', 'juga', 'sebagai', 'karena', 'tidak', 'dapat', 'akan',
-            'agar', 'lebih', 'bagi', 'terhadap','menggunakan', 'pembuatan', 'meningkatkan, 'kegiatan', 'berupa', 'pemanfaatan', 'berbasis'
+            'agar', 'lebih', 'bagi', 'terhadap','menggunakan', 'pembuatan', 'meningkatkan, 
+            'kegiatan', 'berupa', 'pemanfaatan', 'berbasis'
         ]
 
         vectorizer = TfidfVectorizer(max_df=0.95, min_df=2, stop_words=stopwords_id)
